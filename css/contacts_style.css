@@ -11,6 +11,8 @@
 body,
 html {
     font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s;
+
 }
 
 ul {
@@ -21,6 +23,77 @@ li {
     text-decoration: none;
 }
 
+/* TOP HEADER */
 .top-header {
     background-color: #0d369f;
+}
+
+.nav-link a {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+}
+
+.nav-link i {
+    font-size: 14px;
+}
+
+.nav-link a:hover {
+    color: #ff6e65;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+/* HEADER */
+
+.logo {
+    color: #0d369f;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo:hover {
+    color: #ff6e65;
+    transition: all 0.5s;
+}
+
+.headerContent a {
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.headerContent a:hover {
+    color: #ff6e65;
+    transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ff6e65;
+}
+
+/* SEARCH HEADER */
+.navbar-nav .search-box{
+    display: flex;
+}
+
+.input-search input{
+    font-size: 15px;
+    border: none;
+    padding: 10px 35px 10px 20px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #eee;
+}
+
+button.search-btn{
+    color: #0d369f;
+    right: 5;
+    padding-top: 15px;
 }
