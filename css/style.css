@@ -49,3 +49,47 @@ text-align: left;
     text-decoration: none;
     transition: all .5s;
 }
+
+/* TITLE */
+
+.title h3{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;    
+}
+
+.title span {
+    color: #ff6e65;
+}
+
+.title::before, .title::after{
+    content: "";
+    background-color: gray;
+    width: 60px;
+    height: 2px;    
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.title::before{
+    left: -20px;
+    bottom: -8px;
+}
+
+.title::after{
+    left: 20px;
+    bottom: -15px;
+}
+
+/* NUMBER */
+.number{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.number p{
+    text-align: center;
+    margin: 0 auto;
+}
