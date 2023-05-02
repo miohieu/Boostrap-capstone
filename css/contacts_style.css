@@ -71,13 +71,6 @@ li {
     transition: all 0.5s;
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #ff6e65;
-}
-
 /* SEARCH HEADER */
 .navbar-nav .search-box{
     display: flex;
