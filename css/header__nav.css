@@ -1,19 +1,77 @@
+  @import '../node_modules/owl.carousel/dist/assets/owl.carousel.css';
+  @import '../node_modules/owl.carousel/dist/assets/owl.theme.default.css';
+  /* header */
+  .top-header {
+    background: var(--primary-color);
+    padding: 0.3em 1em 0.1em;
+    font-size: 1rem;
+    font-weight: 400;
+    
+  }
+  .top-content {
+      vertical-align: middle;
+  }
+  .top-header__list {
+    display: flex;
+  }
+  .top-header__list li {
+      margin-right:  2rem;
+  }
+  .top-header__list a {
+    color: white;
+  }
+  /* NAVBAR */
+  .form__input {
 
-/* header */
-.top-header {
-  background: var(--primary-color);
-  padding: 14px 15px;
-  
-}
-.top-content {
-    vertical-align: middle;
-}
-.top-header__list {
-  display: flex;
-}
-.top-header__list li {
-    margin-right:  2rem;
-}
-.top-header__list a {
-  color: white;
+    display: flex;
+
+  }
+  .form__input input {
+    background: transparent;
+  padding: 10px 35px 10px 20px;
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #eee;
+
+  }
+
+  .form__input button {
+  border: none; 
+  }
+  .btn{
+    position: absolute;
+      color: var(--primary-color);
+      bottom: 33px;
+      right: 20px;
+      
+      padding: 0px 20px 0px 0px;
+      text-align: center;
+      
+  }
+
+  /* carousel */
+  .carousel__slider {
+    max-height: 40rem;
+    overflow: hidden;
+  }
+
+  #owl-item {
+    position: relative;
+    width: 100%;
+  }
+  .owl-dots {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+      right: 5em;
+      bottom: 25em;
+      background: none;
+    flex-direction: column-reverse;
+    
+    
+  }
+.banner__info {
+  position: absolute;
+  top: 10em;
+  left: 10em;
 }
