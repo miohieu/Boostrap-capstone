@@ -25,4 +25,26 @@ color: #212529;
 text-align: left;
 }
 
+/* TOP HEADER */
+.top-header {
+    background-color: #0d369f;
+}
 
+.nav-link a {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+}
+
+.nav-link i {
+    font-size: 14px;
+}
+
+.nav-link a:hover {
+    color: #ff6e65;
+    text-decoration: none;
+    transition: all .5s;
+}
