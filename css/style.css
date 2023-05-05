@@ -106,7 +106,7 @@ html {
     text-align: center;
 }
 
-.counter{
+.counter {
     border-right: 1px solid #eee;
 }
 
@@ -116,27 +116,79 @@ html {
     color: #060606;
 }
 
-.textCount{
+.textCount {
     color: #060606;
 }
 
-.authorImg img{
+.authorImg img {
     border-radius: 50%;
 }
 
-.authorText{
+.authorText {
     margin-left: 10px;
 }
 
-.contentCard{
+.contentCard {
     background-color: white;
     box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
     padding: 2rem;
     border-radius: 4px;
 }
 
-.contentCard span{
+.contentCard span {
     font-size: 22px;
     line-height: .8;
     color: #ff6e65;
+}
+
+/* INSTRUCTORS */
+.instructors-contentCard {
+    background-color: white;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.memberImg img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.member-top {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.instructors-contentCard:hover .memberContact {
+    bottom: 0px;
+}
+
+.instructors-contentCard:hover .memberText h5 {
+    color: #ff6e65;
+    transition: 0.5s all;
+}
+
+.memberContact {
+    position: absolute;
+    background: rgb(8 8 8 / 29%);
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    bottom: -200px;
+    transition: 0.5s all;
+}
+
+.icon a {
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.icon i {
+    color: #0d369f;
+    font-size: 14px;
+    line-height: 28px;
 }
