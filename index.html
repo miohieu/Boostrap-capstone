@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -23,11 +22,11 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="top-header text-center text-light d-none d-md-flex align-items-center">
+    <section class="top-header text-center text-light d-none d-xl-flex align-items-center">
 
       <div class="container-fluid TopHeader">
         <div
-          class="top-content d-flex align-items-center justify-content-between"
+          class="top-content d-none d-md-flex align-items-center justify-content-between"
         >
           <div class="top-headers__left HeaderLeftInfo">
             <ul class="top-header__list">
@@ -80,8 +79,8 @@
       </div>
     </section>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
-      <a class="navbar-brand" href="#">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
+      <a class="logo-text" href="#" >
         <img src="./img/logo.png" alt="" />
         Studios</a
       >
@@ -89,13 +88,13 @@
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbar-expand__content"
+        data-target="navbar-expand__content"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbar-expand__content">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-2 ml-auto">
           <li class="nav-item active">
             <a class="nav-link active" href="#"
               >Home <span class="sr-only">(current)</span></a
@@ -104,7 +103,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">About us</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown text-center mx-2">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -117,7 +116,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item text-uppercase" href="#">Blog posts</a>
               <a class="dropdown-item text-uppercase" href="#">landing page</a>
-              <a class="dropdown-item text-uppercase" href="#">elements page</a>
+              <a class="dropdown-item text-uppercase" href="#">Elements page</a>
             </div>
           </li>
           <li class="nav-item">
@@ -148,7 +147,7 @@
             <img src="./img/banner2.jpg" alt="" />
           </div>
           <div class="banner__info">
-            <h1 class="text-light">Master the Skills to Drive your Career</h1>
+            <h5 class="text-light">Master the Skills to Drive your Career</h5>
             <button class="btn-style">Know more</button>
           </div>
         </div>
@@ -160,7 +159,7 @@
           <div class="container__info">
           <div class="banner__info position-absolute">
     
-            <h1 class="text-light">Studios is the best choice for everyone</h1>
+            <h5 class="text-light">Studios is the best choice for everyone</h5>
             <button class="btn-style">Know more</button>
 
 
@@ -172,42 +171,43 @@
         <div class="owl-dot active position-absolute"><span></span></div>
         <div class="owl-dot position-absolute"><span></span></div>
       </div>
-    </section>
+   </section>
     
-    <section class="box">
-        <div class="container-lg">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="box__info">
+    <section class="box-grid pb-lg-5 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-3 px-lg-2">
+                    <div class="box__info color1">
                         <i class="fa-solid fa-gears"></i>
-                        <h4>
-                            <a> Engineering and Architecture </a>
+                        <h4
+                            >
+                            <a class="box__info-links" href="#"> Engineering &amp; Architecture </a>
                         </h4>
                     </div>
                 </div> 
-                 
-                <div class="col-md-3">
-                    <div class="box__info">
-                        <i class="fa-solid fa-gears"></i>
+                <div class="col-md-6 col-lg-3 px-lg-2 mt-md-0 mt-3">
+                    
+                    <div class="box__info color2">
+                        <i class="fa-solid fa-book"></i>
                         <h4>
-                            <a> Engineering and Architecture </a>
+                            <a class="box__info-links" href="#">Learning Management</a>
                         </h4>
                     </div>
                 </div> 
-                 
-                <div class="col-md-3">
-                    <div class="box__info">
-                        <i class="fa-solid fa-gears"></i>
+                <div class="col-md-6 col-lg-3 px-lg-2 mt-md-0 mt-3">
+                    
+                    <div class="box__info color3">
+                        <i class="fa-solid fa-mug-saucer"></i>
                         <h4>
-                            <a> Engineering and Architecture </a>
+                            <a class="box__info-links"  href="#">Business &amp; Management</a>
                         </h4>
                     </div>
                 </div> 
-                <div class="col-md-3">
-                    <div class="box__info">
-                        <i class="fa-solid fa-gears"></i>
+                <div class="col-md-6 col-lg-3 px-lg-2 mt-md-0 mt-3">
+                    <div class="box__info color4">
+                        <i class="fa-solid fa-hourglass-half"></i>
                         <h4>
-                            <a> Engineering and Architecture </a>
+                            <a class="box__info-links" href="#">Articial Intelligent</a>
                         </h4>
                     </div>
                 </div> 
@@ -215,6 +215,7 @@
         </div>
     </section>
 
+<h2></h2>
 
 
 
@@ -222,12 +223,7 @@
 
 
 
-
-
-
-
-
-
+   
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
