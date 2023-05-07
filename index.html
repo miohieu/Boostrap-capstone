@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="top-header text-center text-light d-none d-xl-flex align-items-center">
+ <section class="top-header text-center text-light d-none d-xl-flex align-items-center">
 
       <div class="container-fluid TopHeader">
         <div
@@ -88,12 +88,12 @@
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="navbar-expand__content"
+        data-target="#navbar-expand"
       >
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbar-expand__content">
+      <div class="collapse navbar-collapse" id="navbar-expand">
         <ul class="navbar-nav mr-2 ml-auto">
           <li class="nav-item active">
             <a class="nav-link active" href="#"
@@ -140,20 +140,20 @@
       </div>
     </nav>
 
-    <section class="carousel__slider">
-     <div class="owl-carousel owl-theme  position-relative">
-        <div id="owl-item">
-          <div class="owl__banner">
-            <img src="./img/banner2.jpg" alt="" />
-          </div>
-          <div class="banner__info">
-            <h5 class="text-light">Master the Skills to Drive your Career</h5>
-            <button class="btn-style">Know more</button>
-          </div>
-        </div>
-        <div id="owl-item" class="position-absolute">
-          <div class="owl__banner position-absolute">
-            <img src="./img/banner3.jpg"  alt="" />
+    <section class="carousel__slider position-relative">
+        <div class="owl-carousel owl-theme">
+            <div id="owl-item">
+                <div class="owl__banner">
+                    <img src="./img/banner2.jpg" alt="" />
+                </div>
+                <div class="banner__info">
+                    <h5 class="text-light">Master the Skills to Drive your Career</h5>
+                    <button class="btn-style">Know more</button>
+                </div>
+            </div>
+            <div id="owl-item" class="position-absolute">
+                <div class="owl__banner position-absolute">
+                    <img src="./img/banner3.jpg"  alt="" />
 
           </div>
           <div class="container__info">
@@ -215,21 +215,58 @@
         </div>
     </section>
 
-<h2></h2>
+    <section class="features">
+
+        <div class="text-center container">
+            <div class="heading">
+                <h1 class="title">Welcome to <span>Studious</span></h1>
+            </div>
+            <div class="features__content row text-center">
+                <div class="col-lg-4 features__item text-center">
+                    <div class="features__body-img">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="features__body-text">
+                        <h3>Trending Course</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque voluptas deleniti doloribus, assumenda quis atque harum quas incidunt non?</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features__body-img"><i class="fa-solid fa-users"></i></div>
+                    <div class="features__body-text">
+                        <h3>Trending Course</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque voluptas deleniti doloribus, assumenda quis atque harum quas incidunt non?</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features__body-img"><i class="fa-solid fa-book"></i></div>
+                    <div class="features__body-text">
+                        <h3>Trending Course</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque voluptas deleniti doloribus, assumenda quis atque harum quas incidunt non?</p>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <section class="services">
+    <div class="container">
+
+    </div>
+    </section>
 
 
 
 
 
 
-
-   
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script>
+ <script>
         $(".owl-carousel").owlCarousel({
             clickable: true,
             loop: true,
@@ -261,4 +298,4 @@
             //boostrap
     </script>
   </body>
-</html>
+</body>
