@@ -1,51 +1,270 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
 :root {
-    --primary-color: #0d369f;
+  --primary-color: #0d369f;
+  --secondary-color: #ff6e65;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-a {
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #060606;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+body a {
     text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+body,
+html {
+    font-family: "Montserrat", sans-serif;
+
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
 }
 
-body,html{
-    font-family: 'Montserrat', sans-serif;
-    
-font-weight: 500;
-line-height: 1.5;
-color: #212529;
-text-align: left;
-}
-
-/* TOP HEADER */
+/* header */
 .top-header {
-    background-color: #0d369f;
+  background: var(--primary-color);
+  padding: 0.3em 1em 0.1em;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.top-content {
+  vertical-align: middle;
+}
+.top-header__list {
+  display: flex;
+}
+.top-header__list li {
+  margin-right: 2rem;
+}
+.top-header__list a {
+  color: white;
+}
+/* NAVBAR */
+.form__input {
+  display: flex;
+}
+.form__input input {
+  background: transparent;
+  padding: 10px 35px 10px 20px;
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #eee;
 }
 
-.nav-link a {
-    color: white;
+.form__input button {
+  border: none;
 }
+.btn {
+  position: absolute;
+  color: var(--primary-color);
+  bottom: 33px;
+  right: 20px;
 
-.nav-link {
-    color: white;
-    font-size: 15px;
+  padding: 0px 20px 0px 0px;
+  text-align: center;
 }
-
-.nav-link i {
-    font-size: 14px;
+.active {
+    color: var(--secondary-color);
 }
-
-.nav-link a:hover {
-    color: #ff6e65;
+.nav-item>a  {
+    font-weight: 700;
+}
+.logo-text {
+color: var(--primary-color);
+font-weight: 800;
+font-size: 1.5rem;
+}
+.logo-text:hover {
+    color: var(--secondary-color);
     text-decoration: none;
-    transition: all .5s;
+} 
+/* carousel */
+.carousel__slider {
+    max-height: 39em;
+    overflow: hidden;
 }
+.owl__banner::before {
+
+    content: " ";
+    content: "";
+    background: linear-gradient(75deg, rgb(16 16 16 / 34%) 10%, rgb(230 2 100 / 0%));
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+#owl-item {
+    position: relative;
+    width: 100%;
+}
+.owl-dots {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 5em;
+    bottom: 25em;
+    background: none;
+    flex-direction: column-reverse;
+}
+.banner__info {
+    z-index: 2;
+    position: absolute;
+    top: 10em;
+    left: 10em;
+}
+.banner__info h5 {
+    padding-bottom: 1em;
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+/*Box*/
+.box-grid {
+    position:relative;
+    top:-4rem;
+}
+.box__info-links{
+    display: block;
+    width:100%;
+    padding-top: 10px;
+    font-weight:600;
+}
+
+.box__info {
+    padding: 50px 35px;
+    position: relative;
+    color:#fff;
+    font-weight:700;
+    z-index: 1;
+    border-radius: 8px;
+}
+.box__info i{
+    font-size:40px;
+    padding-bottom:10px;
+}
+.box__info a:hover{
+color: black;
+text-decoration: none;
+}
+.color1{
+    background-color:#037ef3;
+}
+.color2{
+
+     background-color:#ffc949;
+ }
+ .color3{
+     background-color:#ff4f81;
+
+ }
+ .color4{
+     background-color:#1ee697;
+
+ }
+ /*Feature  */
+ .features__body-img i {
+width: 70px;
+height: 70px;
+border-radius: 50px;
+padding: 1em;
+background-color:#e9edf6;
+margin-bottom: 20px;
+line-height: 20px;
+color: var(--primary-color);
+font-size: 2em;
+ }
+
+/* service */
+.services {
+  background-image: url(../img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.service-card__body {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+.service__icon {
+  display: inline-block;
+  width: 50px;
+  height:50px;
+  border-radius: 30px;
+  background-color: #e9edf6;
+padding: 1rem;
+margin-right: 1rem;
+color: var(--primary-color);
+font-size: larger;
+}
+
+
+ @media (max-width:1140px){
+    .banner__info h5 {
+    font-size: 57px;
+    line-height: 67px;
+    }
+
+
+    .navbar {
+        background-image: rgba(0, 0, 0, 0);
+    }
+ }
+
+
+ @media (max-width:960px) {
+    .banner__info h5 {
+    font-size: 50px;
+    line-height: 60px;
+    }
+
+}
+
+@media (max-width:720px) {
+    .banner__info h5 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+@media (max-width:540px) {
+    .banner__info h5 {
+        font-size: 35px;
+        line-height: 50px;
+
+
+    }
+  }
+
+ @media (orientation: landscapse) {
+     body   {
+         width:90%;
+         margin: 0 auto;
+     }
+
+ }
