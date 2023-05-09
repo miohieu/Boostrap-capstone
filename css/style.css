@@ -257,11 +257,6 @@ font-size: larger;
         font-size: 35px;
         line-height: 50px;
 
-.nav-link a:hover {
-    color: #ff6e65;
-    text-decoration: none;
-    transition: all .5s;
-}
 
     }
   }
