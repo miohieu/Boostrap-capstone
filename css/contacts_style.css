@@ -32,6 +32,13 @@ a:hover {
     opacity: 1;
 }
 
+p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+
 /* TOP HEADER */
 .top-header {
     background-color: #0d369f;
@@ -107,6 +114,14 @@ a:hover {
 
 /* HEADER */
 
+header.main-header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
 .logo {
     color: #0d369f;
     font-weight: bold;
@@ -128,6 +143,7 @@ a:hover {
     color: #ff6e65;
     transition: all 0.5s;
 }
+
 
 /* SEARCH HEADER */
 .navbar-nav .search-box {
@@ -195,4 +211,185 @@ button.search-btn {
 .contact-grid .cont-right a:hover{
     color: #ff6e65;
     cursor: pointer;
+}
+
+/* CONTACT-FORM */
+.contact-form-left img{
+    border-radius: 8px;
+}
+
+.form-input input, textarea{
+    width: 100%;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid #eee;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 16px;    
+    border-radius: 8px;
+}
+
+.inputMessage{
+    height: 120px;
+}
+
+.btnSendMessage{
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff6e65;
+    border: none;
+    border-radius: 4px;
+    transition: all .25s;
+    margin-bottom: 20px;
+}
+
+.btnSendMessage:hover{
+    background-color: #0d369f;
+    transition: all .25s;
+}
+
+/* FOOTER */
+
+.footer-sub {
+    padding: 80px 0;
+    background: #060e1f;
+}
+
+.footerTop {
+    padding: 50px;
+    max-width: 1000px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
+    left: 0;
+    right: 0;
+    top: -60px;
+}
+
+.textTop-footer h4 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.formEmail input {
+    background: transparent;
+    padding: 15px 20px;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 8px 0 0 8px;
+}
+
+.formEmail input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #91e6c4;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(46, 202, 139, 0.25);
+}
+
+.btnSend {
+    padding: 15px 20px;
+    border: 1px solid #0d369f;
+    border-radius: 0 8px 8px 0;
+    background-color: #0d369f;
+    color: white;
+    font-weight: 600;
+}
+
+.btnSend:hover {
+    opacity: .9;
+}
+
+.footerBot {
+    margin-top: 120px;
+}
+
+.linkFooter h6 {
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid rgb(23 54 88 / 40%);
+    padding-bottom: 10px;
+
+}
+
+.linkFooter a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.linkFooter i {
+    font-size: 10px;
+    line-height: 24px;
+}
+
+.linkFooter a:hover {
+    color: white;
+}
+
+.linkCont i {
+    font-size: 15px;
+    width: 25px;
+    color: #fff;
+    height: 18px;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.linkCont a {
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.About {
+    border-left: 1px solid rgb(64 73 82 / 51%);
+}
+
+.AboutText p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+}
+
+.socIcon a {
+    color: white;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255 255 255 / 6%);
+    /* display: inline-block; */
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.socIcon i {
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.socIcon a:hover {
+    opacity: .8;
+}
+
+/* COPY RIGHT */
+.copy-right{
+    background: #040a17;
+    padding: 20px 0;
+}
+
+.cpy-text a{
+    color: #fff;
 }
