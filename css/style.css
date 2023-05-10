@@ -233,7 +233,18 @@ HEAD .nav-link a {
 .color4 {
     background-color: #1ee697;
 
-}
+ }
+ /*Feature  */
+ .features__body-img i {
+width: 70px;
+height: 70px;
+border-radius: 70px;
+padding: 1em;
+background-color:#e9edf6;
+margin-bottom: 20px;
+color: var(--primary-color);
+font-size: 2em;
+ }
 
 /* service */
 .services {
