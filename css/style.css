@@ -113,7 +113,6 @@ HEAD .nav-link a {
     color: var(--primary-color);
     bottom: 33px;
     right: 20px;
-
     padding: 0px 20px 0px 0px;
     text-align: center;
 }
@@ -543,12 +542,14 @@ p {
     padding: 14px 30px;
     transition: 0.3s ease-out;
     font-weight: 600;
+    border-radius: .25rem;
 }
 
 .btncontact:hover {
     background-color: #0d369f;
     color: #fff;
     padding: 14px 30px;
+    text-decoration: none;
     transition: 0.3s ease-out;
     font-weight: 600;
 }
@@ -691,7 +692,6 @@ p {
     background: #040a17;
     padding: 20px 0;
 }
-
 .cpy-text a {
     color: #fff;
 }

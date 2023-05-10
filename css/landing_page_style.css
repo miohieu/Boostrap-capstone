@@ -295,6 +295,16 @@ button.search-btn {
     margin-top: 100px;
 }
 
+.features__body-text h3{
+    color: black;
+    line-height: 34px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.features__body-text h3:hover{
+    color: #ff6e65;
+}
+
 .features__body-img i {
     width: 70px;
     height: 70px;
