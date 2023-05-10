@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+    --primary-color: #0d369f;
+    --secondary-color: #ff6e65;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #060606;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+
+.btn-style:hover {
+    color: white;
+    background-color: #ff6e65;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+body,
+html {
+    font-family: "Montserrat", sans-serif;
+
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+/* TOP HEADER */
+.top-header {
+    background-color: #0d369f;
+}
+
+.nav-link a {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+}
+
+.nav-link i {
+    font-size: 14px;
+}
+
+.nav-link a:hover {
+    color: #ff6e65;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.nav-link.active {
+    color: #ff6e65;
+}
+
+
+.title {
+    margin: auto;
+    max-width: 700px;
+}
+
+.topTitle {
+    position: relative;
+}
+
+.title-main {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title-main span {
+    color: #ff6e65;
+}
+
+.title-main::before,
+.title-main::after {
+    content: "";
+    background-color: gray;
+    width: 60px;
+    height: 2px;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.title-main::before {
+    left: -20px;
+    bottom: -8px;
+}
+
+.title-main::after {
+    left: 20px;
+    bottom: -15px;
+}
+
+.title-text {
+    text-align: center;
+}
+
+/* HEADER */
+header.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    z-index: 2;
+}
+
+.logo {
+    color: #0d369f;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo:hover {
+    color: #ff6e65;
+    transition: all 0.5s;
+}
+
+.headerContent a {
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.headerContent a:hover {
+    color: #ff6e65;
+    transition: all 0.5s;
+}
+
+/* SEARCH HEADER */
+.navbar-nav .search-box {
+    display: flex;
+}
+
+.input-search input {
+    font-size: 15px;
+    border: none;
+    padding: 10px 35px 10px 20px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #eee;
+}
+
+button.search-btn {
+    color: #0d369f;
+    right: 5;
+    padding-top: 15px;
+}
+
+/*INNER BANNER */
+
+.inner-banner img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+.inner-banner {
+    position: relative;
+    color: white;
+}
+
+.inner-text {
+    position: absolute;
+    top: 50%;
+}
+
+.inner-text i {
+    font-size: 10px;
+    line-height: 1;
+    color: #d4d4d4;
+}
+
+.inner-text span {
+    color: #d4d4d4;
+}
