@@ -48,7 +48,7 @@ html {
 }
 
 /* header */
-/* .top-header {
+ .top-header {
   background: var(--primary-color);
   padding: 0.3em 1em 0.1em;
   font-size: 1rem;
@@ -65,7 +65,7 @@ html {
 }
 .top-header__list a {
   color: white;
-} */
+} 
 
 /* TOP HEADER  KIEN */
 .top-header {
