@@ -42,7 +42,7 @@ html {
 
 }
 
-p{
+p {
     color: #707070;
 }
 
@@ -200,6 +200,16 @@ button.search-btn {
 
 .inner-text span {
     color: #d4d4d4;
+}
+
+.inner-text .banner-inner {
+    color: #fff;
+    opacity: .8;
+}
+
+.inner-text .banner-inner:hover {
+    opacity: 1;
+    text-decoration: none;
 }
 
 /* BLOG */
@@ -483,14 +493,14 @@ span.page-numbers {
     font-size: 14px;
 }
 
-.page-numbers{
+.page-numbers {
     font-weight: 600;
     color: black;
     padding: 10px 18px;
     font-size: 14px;
 }
 
-.page-numbers a:hover{
+.page-numbers a:hover {
     color: white;
     background-color: var(--secondary-color);
     display: inline-block;
