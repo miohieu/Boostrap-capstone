@@ -31,11 +31,7 @@ ul {
     background-color: #ff6e65;
 }
 
-body a {
-    text-decoration: none;
-    color: white;
-    transition: all 0.5s ease-in;
-}
+
 
 body,
 html {
@@ -201,4 +197,57 @@ button.search-btn {
 
 .inner-text span {
     color: #d4d4d4;
+}
+
+/* BLOG */
+/* post-box */
+.post-box{
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+.thumbnail img{ 
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+    height: 70%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.athur {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ff6e65;
+}
+
+.athur:hover{
+    font-weight: 600;
+    color: #ff6e65;
+    text-decoration: none;
+}
+
+.textRight {
+    display: inline;
+    color: #707070;
+}
+.textRight i{
+    font-size: 11px;
+    color: #ff6e65;
+}
+
+.postBot-text a{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    transition:0.5s all ;
+
+}
+
+.postBot-text a:hover{
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
 }
