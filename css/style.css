@@ -190,11 +190,10 @@ text-decoration: none;
  .features__body-img i {
 width: 70px;
 height: 70px;
-border-radius: 50px;
+border-radius: 70px;
 padding: 1em;
 background-color:#e9edf6;
 margin-bottom: 20px;
-line-height: 20px;
 color: var(--primary-color);
 font-size: 2em;
  }
