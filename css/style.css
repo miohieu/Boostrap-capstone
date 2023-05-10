@@ -48,7 +48,7 @@ html {
 }
 
 /* header */
-/* .top-header {
+ .top-header {
   background: var(--primary-color);
   padding: 0.3em 1em 0.1em;
   font-size: 1rem;
@@ -65,7 +65,7 @@ html {
 }
 .top-header__list a {
   color: white;
-} */
+} 
 
 /* TOP HEADER  KIEN */
 .top-header {
@@ -232,7 +232,18 @@ HEAD .nav-link a {
 .color4 {
     background-color: #1ee697;
 
-}
+ }
+ /*Feature  */
+ .features__body-img i {
+width: 70px;
+height: 70px;
+border-radius: 70px;
+padding: 1em;
+background-color:#e9edf6;
+margin-bottom: 20px;
+color: var(--primary-color);
+font-size: 2em;
+ }
 
 /* service */
 .services {
