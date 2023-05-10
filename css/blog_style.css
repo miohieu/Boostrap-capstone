@@ -201,6 +201,10 @@ button.search-btn {
 
 /* BLOG */
 /* post-box */
+.post-contain {
+height: 550px;
+
+}
 .post-box{
     border: 1px solid #eee;
     border-radius: 8px;
@@ -250,4 +254,21 @@ button.search-btn {
     font-weight: 600;
     line-height: 30px;
     text-decoration: none;
+}
+
+
+.widget {
+    border: 0.5px solid black;
+    border-radius:8px;
+    padding: 1rem;
+    margin-bottom: 40px;
+
+}
+.search-field {
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+.search-submit {
+    padding: 12px;
+
 }
